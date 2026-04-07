@@ -21,9 +21,9 @@ header {
     align-items: center;
 }
 header img {
-    margin: 10px 0px 10px 20px;
+    margin: 0px 0px 0px 20px;
     height: auto;
-    width: 75px;
+    width: 95px;
 }
 header nav {
     display: flex;
@@ -32,7 +32,13 @@ header nav {
     gap: 50px;
     margin: 10px 20px 10px 10px;
 }
+nav a{
+    text-decoration: none;
+    color: #191919;
+}
 nav button {
     border: none;
     font-size: 25px;
+    cursor: pointer;
+    border-bottom: 3px solid black;
 }
