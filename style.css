@@ -98,6 +98,7 @@ nav button {
     justify-content: space-around;
 }
 .first_selections div{
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -105,6 +106,18 @@ nav button {
     margin: 10px 10px 10px 10px;
     border: 1px solid black;
     padding: 10px 10px 10px 10px;
+}
+.first_selections h2{
+    text-align: center;
+}
+.first_selections p{
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+}
+.crossed {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7)
 }
 .second_section {
     display: flex;
