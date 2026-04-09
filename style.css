@@ -11,6 +11,7 @@ main {
     flex: 1;
     background-color: #553A41;
     padding-bottom: 40px;
+    padding-top: 25px;
 }
 footer {
     flex-shrink: 0;
@@ -73,83 +74,77 @@ nav button:active {
 }
 
 
-.big_pic {
-    border: 1px solid black;
+.full_search {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYn4sMGQJ-KIIlGFEZh-sJOYH_FO3JLoHQrg&s);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 600px; 
-    width: 100%;
-    height: 70vh;
+    margin: 0px 10% 0px 10%;
+    height: 40px;
 }
-.text_pic {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #191919;
-    min-height: 250px;
-    max-width: 800px;
-    border-radius: 20%;
-    color: #E6E8E6;
-}
-.big_pic h1 {
-    text-wrap: wrap;
-    margin: 20px 10px 0px 10px;
-    font-size: 50px;
-    padding: 1px 1px 1px 1px;
-}
-.big_pic p {
-    margin: 5px 0px 5px 0px;
+.full_search select {
     font-size: 25px;
-}
-.big_pic button {
-    border-radius: 20%;
-    height: 60px;
-    width: auto;
-    color: #E6E8E6;
-    background-color: #BB7E8C;
-    font-size: 25px;
-    margin: 0px 0px 0px 0px;
-    padding: 5px 10px 5px 10px;
-    border: none;
+    height: 54px;
+    margin-left: 70px;
+    width: 20%;
+    padding-left: 3%;
+    background-color: white;
+    border: 2px solid black;
+    transition: 15ms ease-in-out;
     cursor: pointer;
-    transition: 15ms;
 }
-.big_pic button:hover {
-    transform: scale(1.05);
+.full_search select:active {
+    transform: scale(0.95);
 }
-.big_pic button:active {
-    transform: scale(1.025);
-    opacity: 0.8;
-}
-.big_pic a{
-    color: #E6E8E6;
-    text-decoration: none;
-}
-.first_section, .second_section {
+.search_box {
+    height: 50px;
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    border: 2px solid black;
 }
-.first_section h1, .second_section h1{
-    display: block;
-    font-size: 40px;
-    padding-left: 30px;
-    margin: 20px 0px 35px 0px;
-    border-bottom: 3px solid #E6E8E6;
-    color: #E6E8E6;
+.search_box:focus-within {
+    border: 2px solid #BB7E8C;
 }
-.first_selections, .second_selections {
+.search_box:focus-within button {
+    border-left: 2px solid #BB7E8C;
+}
+.search_box input {
+    font-size: 25px;
+    padding-left: 20px;
+    border: none;
+    width: 90%;
+    height: 96%;
+}
+.search_box input:focus {
+    outline: none;
+}
+.search_box button {
+    border: none;
+    background-color: white;
+    width: 10%;
+    height: 100%;
+    border-left: 2px solid black;
+    background-image: url(https://static.thenounproject.com/png/1594157-200.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.search_box button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+.search_box button:active {
+    transform: scale(0.95);
+}
+
+
+.selections {
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.first_selections div, .second_selections div{
+.selections div{
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -159,57 +154,36 @@ nav button:active {
     padding: 10px 10px 10px 10px;
     transition: 20ms;
 }
-.first_selections div:hover, .second_selections div:hover {
+.selections div:hover {
     transform: scale(1.1)
 }
-.first_selections div:active, .second_selections div:active {
+.selections div:active {
     transform: scale(1.055);
 }
-.first_selections h2, .second_selections h2{
-    color: #E6E8E6;
+.selections h2 {
     text-align: center;
-}
-.first_selections p, .second_selections p{
     color: #E6E8E6;
-    margin-left: 25px;
+}
+.selections p {
+    margin-top: 10px;
+    text-align: center;
     font-size: 25px;
     width: 100%;
-    text-align: left;
+    color: #E6E8E6;
 }
-.first_selections img, .second_selections img{
+.selections img {
     width: 100%;
     height: auto;
 }
 .crossed {
-    color: #E6E8E6BF;
     margin-right: 10px;
     font-size: 20px;
+    color: #E6E8E6BF;
 }
 
 
 
 footer {
-    display: flex;
-    flex-direction: column;
-}
-.first_bottom {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid black;
-    padding-left: 50px;
-    padding-right: 50px;
-    height: auto;
-}
-.first_bottom_link {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.first_bottom_link a {
-    text-decoration: none;
-    color: #3A6EA5;
-}
-.second_bottom {
     padding-left: 50px;
     padding-right: 50px;
     color: white;
