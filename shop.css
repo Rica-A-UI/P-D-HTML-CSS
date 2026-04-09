@@ -40,5 +40,6 @@ nav button {
     border: none;
     font-size: 25px;
     cursor: pointer;
+    background-color: white;
     border-bottom: 3px solid black;
 }
