@@ -1,12 +1,12 @@
 # Internetaveikals apģērbiem
-Veidots apģērba internetveikals pēc [https://github.com/GRebuks/programmaturas-koda-rakstisana-uzdevums-2/blob/master/uzdevums.md](uzdevums).
+Veidots apģērba internetveikals pēc [uzdevums](https://github.com/GRebuks/programmaturas-koda-rakstisana-uzdevums-2/blob/master/uzdevums.md).
 
 Faili repozitorijā:
-- index.html
-- main.css
-- store.html
-- style.css
+- index.html;
+- main.css;
+- store.html;
+- style.css.
 
 Lietotās mājaslapas apģērbu meklēšanai:
-- [https://sportland.lv/](sportland.lv)
-- [https://www.decathlon.co.uk/](Decathlon)
+- [sportland.lv](https://sportland.lv/);
+- [Decathlon](https://www.decathlon.co.uk/).
