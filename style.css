@@ -95,6 +95,10 @@ nav button:active {
 .full_search select:active {
     transform: scale(0.95);
 }
+.full_search select:hover {
+    background-color: gray;
+    cursor: pointer;
+}
 .search_box {
     height: 50px;
     display: flex;
