@@ -117,6 +117,7 @@ nav button:active {
     border: none;
     width: 90%;
     height: 96%;
+    color: rgba(0, 0, 0, 0.6);
 }
 .search_box input:focus {
     outline: none;
